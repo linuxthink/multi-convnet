@@ -1,0 +1,1 @@
+/usr/local/MATLAB/MATLAB_Production_Server/R2013a/bin/mex maxPooling.cpp -v LDFLAGS="\$LDFLAGS -fopenmp" CXXFLAGS="\$CXXFLAGS -fopenmp -O2 -funroll-loops" CFLAGS="\$CFLAGS -fopenmp -O2 -funroll-loops" COPTIMFLAGS="$COPTIMFLAGS -fopenmp" CC="gcc -DOPENMP" CXX="g++ -DOPENMP" LD="g++" -largeArrayDims
